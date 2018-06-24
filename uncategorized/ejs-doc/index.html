@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>EJS 中文文档 | 计算机电子书 - Hifor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="译者：飞龙 来源：ejs">
+<meta name="keywords" content="javascript,node.js,ejs">
+<meta property="og:type" content="article">
+<meta property="og:title" content="EJS 中文文档">
+<meta property="og:url" content="http://hifor.net/uncategorized/ejs-doc/index.html">
+<meta property="og:site_name" content="计算机电子书 - Hifor">
+<meta property="og:description" content="译者：飞龙 来源：ejs">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2016-04-01T17:36:52.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="EJS 中文文档">
+<meta name="twitter:description" content="译者：飞龙 来源：ejs">
+  
+    <link rel="alternative" href="/ebook/atom.xml" title="计算机电子书 - Hifor" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link href="//fonts.css.network/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/ebook/css/style.css">
+  
+
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="header-outer">
+
+    <div id="header-inner">
+      <div class="outer">
+      <h1 id="logo-wrap"><a href="/" id="logo">计算机电子书 - Hifor</a></h1>
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/ebook/../">Home</a>
+        
+          <a class="main-nav-link" href="/ebook/../ebook/">Ebook</a>
+        
+          <a class="main-nav-link" href="/ebook/../about/">About</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/ebook/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://hifor.net"></form>
+      </div>
+      </div>
+    </div>
+
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-ejs-doc" class="article article-type-post article-con" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/ebook/uncategorized/ejs-doc/" class="article-date">
+  <time datetime="2016-01-11T09:07:12.000Z" itemprop="datePublished">2016-01-11</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      EJS 中文文档
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>译者：<a href="https://github.com/wizardforcel" target="_blank" rel="noopener">飞龙</a></p>
+<p>来源：<a href="https://github.com/mde/ejs" target="_blank" rel="noopener">ejs</a></p>
+<a id="more"></a>
+<p>嵌入式 JavaScript 模板</p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install ejs</span><br></pre></td></tr></table></figure>
+<h2 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h2><ul>
+<li><code>&lt;% %&gt;</code> 用于控制流</li>
+<li><code>&lt;%= %&gt;</code> 用于转义的输出</li>
+<li><code>&lt;%- %&gt;</code> 用于非转义的输出</li>
+<li><code>-%&gt;</code> 结束标签用于换行移除模式</li>
+<li>带有<code>&lt;%_ _%&gt;</code>的控制流使用空白字符移除模式</li>
+<li>自定义分隔符 (例如，使用 ‘&lt;? ?&gt;’ 代替 ‘&lt;% %&gt;’)</li>
+<li>包含</li>
+<li>客户端支持</li>
+<li>中介JavaScript的静态缓存</li>
+<li>模板的静态缓存</li>
+<li>与 <a href="http://expressjs.com" target="_blank" rel="noopener">Express</a> 视图系统兼容</li>
+</ul>
+<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">%</span> <span class="attr">if</span> (<span class="attr">user</span>) &#123; %&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">h2</span>&gt;</span><span class="tag">&lt;<span class="name">%=</span> <span class="attr">user.name</span> %&gt;</span><span class="tag">&lt;/<span class="name">h2</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span> &#125; %&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> template = ejs.compile(str, options);</span><br><span class="line">template(data);</span><br><span class="line"><span class="comment">// =&gt; 渲染 HTML 字符串</span></span><br><span class="line"></span><br><span class="line">ejs.render(str, data, options);</span><br><span class="line"><span class="comment">// =&gt; 渲染 HTML 字符串</span></span><br></pre></td></tr></table></figure>
+<p>你也可以使用快捷方式 <code>ejs.render(dataAndOptions);</code> ，其中你可以通过一个对象来传递任何东西。在这种情况下，你需要以一个装有所有需要传递对象的本地变量结束。</p>
+<h2 id="选项"><a href="#选项" class="headerlink" title="选项"></a>选项</h2><ul>
+<li><code>cache</code>           编译过的函数会被缓存，需要<code>filename</code></li>
+<li><code>filename</code>        被<code>cache</code>用做缓存的键，用于包含</li>
+<li><code>context</code>         函数执行的上下文</li>
+<li><code>compileDebug</code>    如果为<code>false</code>，不会编译调试用的工具</li>
+<li><code>client</code>          返回独立的编译后的函数</li>
+<li><code>delimiter</code>       开启或者闭合尖括号所用的字符</li>
+<li><code>debug</code>           输出生成的函数体</li>
+<li><code>_with</code>           是否使用 <code>with() {}</code> 结构。如果为 <code>false</code> 则局部数据会储存在 <code>locals</code> 对象中。</li>
+<li><code>rmWhitespace</code>    移除所有可以安全移除的空白字符，包含前导和尾后的空白字符。同时会为所有scriptlet标签开启<code>-%&gt;</code>换行截断的更加安全的模式。（它不会在一行之中去除标签的换行）。</li>
+</ul>
+<h2 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h2><ul>
+<li><code>&lt;%</code>              ‘Scriptlet’ 标签, 用于控制流，没有输出</li>
+<li><code>&lt;%=</code>             向模板输出值（带有转义）</li>
+<li><code>&lt;%-</code>             向模板输出没有转义的值</li>
+<li><code>&lt;%#</code>             注释标签，不执行，也没有输出</li>
+<li><code>&lt;%%</code>             输出字面的 ‘&lt;%’</li>
+<li><code>%&gt;</code>              普通的结束标签</li>
+<li><code>-%&gt;</code>             Trim-mode (‘newline slurp’) 标签, 移除随后的换行符</li>
+</ul>
+<h2 id="包含"><a href="#包含" class="headerlink" title="包含"></a>包含</h2><p>包含要么是绝对路径，或者如果不是的话，被视为相对于调用<code>include</code>的模板的路径（需要<code>filename</code>选项）。 例如，你在<code>./views/users.ejs</code>中包含<code>./views/user/show.ejs</code>，你应该使用<code>&lt;%- include(&#39;user/show&#39;) %&gt;</code>。</p>
+<p>你可能会用到原始输出标签（<code>&lt;%-</code>）避免二次转义HTML输出。</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">%</span> <span class="attr">users.forEach</span>(<span class="attr">function</span>(<span class="attr">user</span>)&#123; %&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">%-</span> <span class="attr">include</span>('<span class="attr">user</span>/<span class="attr">show</span>', &#123;<span class="attr">user:</span> <span class="attr">user</span>&#125;) %&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">%</span> &#125;); %&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>包含的内容在运行时插入， 所以你可以在<code>include</code>调用中使用变量作为路径（例如<code>&lt;%- include(somePath) %&gt;</code>）。在你顶级数据对象中的变量都可以用于所有的包含，而局部变量需要传递进来。</p>
+<p>注意：仍然支持包含预处理指令（<code>&lt;% include user/show %&gt;</code>）。</p>
+<h2 id="自定义分隔符"><a href="#自定义分隔符" class="headerlink" title="自定义分隔符"></a>自定义分隔符</h2><p>自定义分隔符可以以模板为单位应用，或者全局：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> ejs = <span class="built_in">require</span>(<span class="string">'ejs'</span>),</span><br><span class="line">    users = [<span class="string">'geddy'</span>, <span class="string">'neil'</span>, <span class="string">'alex'</span>];</span><br><span class="line"></span><br><span class="line"><span class="comment">// Just one template</span></span><br><span class="line">ejs.render(<span class="string">'&lt;?= users.join(" | "); ?&gt;'</span>, &#123;<span class="attr">users</span>: users&#125;, &#123;<span class="attr">delimiter</span>: <span class="string">'?'</span>&#125;);</span><br><span class="line"><span class="comment">// =&gt; 'geddy | neil | alex'</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// Or globally</span></span><br><span class="line">ejs.delimiter = <span class="string">'$'</span>;</span><br><span class="line">ejs.render(<span class="string">'&lt;$= users.join(" | "); $&gt;'</span>, &#123;<span class="attr">users</span>: users&#125;);</span><br><span class="line"><span class="comment">// =&gt; 'geddy | neil | alex'</span></span><br></pre></td></tr></table></figure>
+<h2 id="缓存"><a href="#缓存" class="headerlink" title="缓存"></a>缓存</h2><p>EJS 自带了一个基本的运行时缓存，用于缓存渲染模板的中介JavaScript函数。使用 Node 的 <code>lru-cache</code> 库来添加LRU缓存十分简单：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> ejs = <span class="built_in">require</span>(<span class="string">'ejs'</span>)</span><br><span class="line">  , LRU = <span class="built_in">require</span>(<span class="string">'lru-cache'</span>);</span><br><span class="line">ejs.cache = LRU(<span class="number">100</span>); <span class="comment">// LRU cache with 100-item limit</span></span><br></pre></td></tr></table></figure>
+<p>如果你想清除ejs的缓存，调用<code>ejs.clearCache</code>。如果你需要以一个不同的限额来使用LRU，只需要将<code>ejs.cache</code>重新设置为一个LRU的新实例。</p>
+<h2 id="布局"><a href="#布局" class="headerlink" title="布局"></a>布局</h2><p>EJS 不会特别地支持区块，但是可以采用包含头部和尾部的方法来实现局部，像这样：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">%-</span> <span class="attr">include</span>('<span class="attr">header</span>') <span class="attr">-</span>%&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span></span><br><span class="line">  Title</span><br><span class="line"><span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">  My page</span><br><span class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%-</span> <span class="attr">include</span>('<span class="attr">footer</span>') <span class="attr">-</span>%&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="客户端支持"><a href="#客户端支持" class="headerlink" title="客户端支持"></a>客户端支持</h2><p>访问<a href="https://github.com/mde/ejs/releases/latest" target="_blank" rel="noopener">最新发布</a>，下载<br><code>./ejs.js</code> 或者 <code>./ejs.min.js</code>。</p>
+<p>选择其一包含到你的页面中，并且使用 <code>ejs.render(str)</code>。</p>
+<h2 id="相关项目"><a href="#相关项目" class="headerlink" title="相关项目"></a>相关项目</h2><p>EJS 有许多实现：</p>
+<ul>
+<li>TJ 的实现，这个库的 v1 版本：<a href="https://github.com/tj/ejs" target="_blank" rel="noopener">https://github.com/tj/ejs</a></li>
+<li>Jupiter Consulting 的 EJS: <a href="http://www.embeddedjs.com/" target="_blank" rel="noopener">http://www.embeddedjs.com/</a></li>
+<li>Google Code 上的 EJS 嵌入式 JavaScript 框架：<a href="https://code.google.com/p/embeddedjavascript/" target="_blank" rel="noopener">https://code.google.com/p/embeddedjavascript/</a></li>
+<li>Sam Stephenson 的 Ruby 实现：<a href="https://rubygems.org/gems/ejs" target="_blank" rel="noopener">https://rubygems.org/gems/ejs</a></li>
+<li>Erubis，ERB 实现，也可以运行JavaScript：<a href="http://www.kuwata-lab.com/erubis/users-guide.04.html#lang-javascript" target="_blank" rel="noopener">http://www.kuwata-lab.com/erubis/users-guide.04.html#lang-javascript</a></li>
+</ul>
+<h2 id="协议"><a href="#协议" class="headerlink" title="协议"></a>协议</h2><p><a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank" rel="noopener">Apache License, Version 2.0</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/ebook/tags/ejs/">ejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/ebook/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/ebook/tags/node-js/">node.js</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/ebook/uncategorized/boost-doc/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Boost 中文文档 1.41
+        
+      </div>
+    </a>
+  
+  
+    <a href="/ebook/uncategorized/w3school-back-end/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">W3School 后端教程合集</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+  <section id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="post-ejs-doc" data-title="EJS 中文文档" data-url="http://hifor.net/uncategorized/ejs-doc/"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:'hifor'};
+      (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+      })();
+      </script>
+    <!-- 多说公共JS代码 end -->
+  </section>
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/android/">android</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/asp-net/">asp.net</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/c/">c</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/c/">c++</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/cpp/">cpp</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/csharp/">csharp</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/css/">css</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/git/">git</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/html/">html</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/java/">java</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/java-web/">java web</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/javascript/">javascript</a><span class="category-list-count">6</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/jquery/">jquery</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/linux/">linux</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/lisp/">lisp</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/matlab/">matlab</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/node-js/">node.js</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/opengl/">opengl</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/os/">os</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/php/">php</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/python/">python</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/ruby/">ruby</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/seo/">seo</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/unity3d/">unity3d</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/windows/">windows</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/产品/">产品</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/其它/">其它</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/安全/">安全</a><span class="category-list-count">11</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/工程/">工程</a><span class="category-list-count">9</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/数学·数理逻辑/">数学·数理逻辑</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/数据库/">数据库</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/数据库-nosql/">数据库 - nosql</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/数据挖掘/">数据挖掘</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/数据结构·算法/">数据结构·算法</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/测试/">测试</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/算法/">算法</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/组成原理/">组成原理</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/编程思想/">编程思想</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/编译/">编译</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/网络/">网络</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/计算机文化/">计算机文化</a><span class="category-list-count">14</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/设计/">设计</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/设计模式·架构/">设计模式·架构</a><span class="category-list-count">6</span></li><li class="category-list-item"><a class="category-list-link" href="/ebook/categories/逆向工程/">逆向工程</a><span class="category-list-count">6</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/ebook/tags/android/" style="font-size: 14.38px;">android</a> <a href="/ebook/tags/angularjs/" style="font-size: 10.63px;">angularjs</a> <a href="/ebook/tags/apache/" style="font-size: 10px;">apache</a> <a href="/ebook/tags/asp/" style="font-size: 11.25px;">asp</a> <a href="/ebook/tags/asp-net/" style="font-size: 13.75px;">asp.net</a> <a href="/ebook/tags/atom/" style="font-size: 10px;">atom</a> <a href="/ebook/tags/beautifulsoup/" style="font-size: 10px;">beautifulsoup</a> <a href="/ebook/tags/boost/" style="font-size: 11.25px;">boost</a> <a href="/ebook/tags/bootstrap/" style="font-size: 10.63px;">bootstrap</a> <a href="/ebook/tags/c/" style="font-size: 13.75px;">c</a> <a href="/ebook/tags/c/" style="font-size: 14.38px;">c++</a> <a href="/ebook/tags/chrome/" style="font-size: 10.63px;">chrome</a> <a href="/ebook/tags/coffeescript/" style="font-size: 10.63px;">coffeescript</a> <a href="/ebook/tags/cpp/" style="font-size: 18.75px;">cpp</a> <a href="/ebook/tags/csharp/" style="font-size: 15px;">csharp</a> <a href="/ebook/tags/css/" style="font-size: 10.63px;">css</a> <a href="/ebook/tags/ctf/" style="font-size: 10px;">ctf</a> <a href="/ebook/tags/d3-js/" style="font-size: 10.63px;">d3.js</a> <a href="/ebook/tags/django/" style="font-size: 14.38px;">django</a> <a href="/ebook/tags/ejs/" style="font-size: 10px;">ejs</a> <a href="/ebook/tags/express-js/" style="font-size: 10px;">express.js</a> <a href="/ebook/tags/flask/" style="font-size: 11.88px;">flask</a> <a href="/ebook/tags/fltk/" style="font-size: 10px;">fltk</a> <a href="/ebook/tags/foundation/" style="font-size: 10px;">foundation</a> <a href="/ebook/tags/gdip/" style="font-size: 10.63px;">gdip</a> <a href="/ebook/tags/gimp/" style="font-size: 10px;">gimp</a> <a href="/ebook/tags/git/" style="font-size: 13.75px;">git</a> <a href="/ebook/tags/gnuplot/" style="font-size: 10px;">gnuplot</a> <a href="/ebook/tags/go/" style="font-size: 13.13px;">go</a> <a href="/ebook/tags/guava/" style="font-size: 10px;">guava</a> <a href="/ebook/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/ebook/tags/hibernate/" style="font-size: 10px;">hibernate</a> <a href="/ebook/tags/highcharts/" style="font-size: 10px;">highcharts</a> <a href="/ebook/tags/html/" style="font-size: 10px;">html</a> <a href="/ebook/tags/intellij-idea/" style="font-size: 10px;">intellij idea</a> <a href="/ebook/tags/ionic/" style="font-size: 10.63px;">ionic</a> <a href="/ebook/tags/ios/" style="font-size: 12.5px;">ios</a> <a href="/ebook/tags/it人文/" style="font-size: 11.25px;">it人文</a> <a href="/ebook/tags/java/" style="font-size: 17.5px;">java</a> <a href="/ebook/tags/javascript/" style="font-size: 19.38px;">javascript</a> <a href="/ebook/tags/jfreechart/" style="font-size: 10px;">jfreechart</a> <a href="/ebook/tags/jinja2/" style="font-size: 10px;">jinja2</a> <a href="/ebook/tags/jquery/" style="font-size: 13.75px;">jquery</a> <a href="/ebook/tags/jquerymobile/" style="font-size: 11.25px;">jquerymobile</a> <a href="/ebook/tags/jqueryui/" style="font-size: 10.63px;">jqueryui</a> <a href="/ebook/tags/jsp/" style="font-size: 10.63px;">jsp</a> <a href="/ebook/tags/kali/" style="font-size: 10.63px;">kali</a> <a href="/ebook/tags/kotlin/" style="font-size: 10.63px;">kotlin</a> <a href="/ebook/tags/laravel/" style="font-size: 10.63px;">laravel</a> <a href="/ebook/tags/linux/" style="font-size: 16.25px;">linux</a> <a href="/ebook/tags/lua/" style="font-size: 10.63px;">lua</a> <a href="/ebook/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/ebook/tags/matplotlib/" style="font-size: 10px;">matplotlib</a> <a href="/ebook/tags/memcached/" style="font-size: 10px;">memcached</a> <a href="/ebook/tags/metasploit/" style="font-size: 10px;">metasploit</a> <a href="/ebook/tags/mfc/" style="font-size: 11.25px;">mfc</a> <a href="/ebook/tags/mongodb/" style="font-size: 10.63px;">mongodb</a> <a href="/ebook/tags/mvc/" style="font-size: 10px;">mvc</a> <a href="/ebook/tags/mybatis/" style="font-size: 10px;">mybatis</a> <a href="/ebook/tags/mysql/" style="font-size: 11.88px;">mysql</a> <a href="/ebook/tags/nginx/" style="font-size: 10px;">nginx</a> <a href="/ebook/tags/nlp/" style="font-size: 10px;">nlp</a> <a href="/ebook/tags/node-js/" style="font-size: 15.63px;">node.js</a> <a href="/ebook/tags/nosql/" style="font-size: 10px;">nosql</a> <a href="/ebook/tags/numpy/" style="font-size: 10.63px;">numpy</a> <a href="/ebook/tags/nw-js/" style="font-size: 10px;">nw.js</a> <a href="/ebook/tags/octave/" style="font-size: 10px;">octave</a> <a href="/ebook/tags/opengl/" style="font-size: 10px;">opengl</a> <a href="/ebook/tags/orm2/" style="font-size: 10px;">orm2</a> <a href="/ebook/tags/os/" style="font-size: 11.88px;">os</a> <a href="/ebook/tags/php/" style="font-size: 11.88px;">php</a> <a href="/ebook/tags/postgresql/" style="font-size: 10px;">postgresql</a> <a href="/ebook/tags/python/" style="font-size: 20px;">python</a> <a href="/ebook/tags/qt/" style="font-size: 11.25px;">qt</a> <a href="/ebook/tags/react/" style="font-size: 10.63px;">react</a> <a href="/ebook/tags/redis/" style="font-size: 11.25px;">redis</a> <a href="/ebook/tags/ruby/" style="font-size: 10.63px;">ruby</a> <a href="/ebook/tags/scala/" style="font-size: 10px;">scala</a> <a href="/ebook/tags/scipy/" style="font-size: 11.25px;">scipy</a> <a href="/ebook/tags/selenium/" style="font-size: 10.63px;">selenium</a> <a href="/ebook/tags/seo/" style="font-size: 10px;">seo</a> <a href="/ebook/tags/servlet/" style="font-size: 11.25px;">servlet</a> <a href="/ebook/tags/sphinx/" style="font-size: 10px;">sphinx</a> <a href="/ebook/tags/spring/" style="font-size: 11.25px;">spring</a> <a href="/ebook/tags/sql/" style="font-size: 10.63px;">sql</a> <a href="/ebook/tags/sqlalchemy/" style="font-size: 10px;">sqlalchemy</a> <a href="/ebook/tags/sqlite/" style="font-size: 11.25px;">sqlite</a> <a href="/ebook/tags/sqlserver/" style="font-size: 10px;">sqlserver</a> <a href="/ebook/tags/swift/" style="font-size: 11.88px;">swift</a> <a href="/ebook/tags/tornado/" style="font-size: 10px;">tornado</a> <a href="/ebook/tags/typescript/" style="font-size: 10px;">typescript</a> <a href="/ebook/tags/unity3d/" style="font-size: 10px;">unity3d</a> <a href="/ebook/tags/vb-net/" style="font-size: 10px;">vb.net</a> <a href="/ebook/tags/vbs/" style="font-size: 11.25px;">vbs</a> <a href="/ebook/tags/velocity/" style="font-size: 10px;">velocity</a> <a href="/ebook/tags/vim/" style="font-size: 10px;">vim</a> <a href="/ebook/tags/vs2010/" style="font-size: 10px;">vs2010</a> <a href="/ebook/tags/vue-js/" style="font-size: 10px;">vue.js</a> <a href="/ebook/tags/webgl/" style="font-size: 10px;">webgl</a> <a href="/ebook/tags/weka/" style="font-size: 10px;">weka</a> <a href="/ebook/tags/werkzurg/" style="font-size: 10px;">werkzurg</a> <a href="/ebook/tags/windows/" style="font-size: 10px;">windows</a> <a href="/ebook/tags/wireshark/" style="font-size: 10.63px;">wireshark</a> <a href="/ebook/tags/wordpress/" style="font-size: 10px;">wordpress</a> <a href="/ebook/tags/wtl/" style="font-size: 10px;">wtl</a> <a href="/ebook/tags/wxwidgets/" style="font-size: 10px;">wxwidgets</a> <a href="/ebook/tags/xml/" style="font-size: 10.63px;">xml</a> <a href="/ebook/tags/yii/" style="font-size: 10px;">yii</a> <a href="/ebook/tags/zepto-js/" style="font-size: 10px;">zepto.js</a> <a href="/ebook/tags/入门/" style="font-size: 10.63px;">入门</a> <a href="/ebook/tags/入门指南/" style="font-size: 11.25px;">入门指南</a> <a href="/ebook/tags/图像处理/" style="font-size: 10px;">图像处理</a> <a href="/ebook/tags/图形/" style="font-size: 10px;">图形</a> <a href="/ebook/tags/工程/" style="font-size: 10px;">工程</a> <a href="/ebook/tags/操作系统/" style="font-size: 11.88px;">操作系统</a> <a href="/ebook/tags/数据挖掘/" style="font-size: 11.25px;">数据挖掘</a> <a href="/ebook/tags/数据结构·算法/" style="font-size: 13.75px;">数据结构·算法</a> <a href="/ebook/tags/数理逻辑·数学/" style="font-size: 10px;">数理逻辑·数学</a> <a href="/ebook/tags/正则表达式/" style="font-size: 10px;">正则表达式</a> <a href="/ebook/tags/汇编/" style="font-size: 10.63px;">汇编</a> <a href="/ebook/tags/测试/" style="font-size: 11.25px;">测试</a> <a href="/ebook/tags/渗透/" style="font-size: 18.13px;">渗透</a> <a href="/ebook/tags/科学计算/" style="font-size: 13.75px;">科学计算</a> <a href="/ebook/tags/算法/" style="font-size: 10px;">算法</a> <a href="/ebook/tags/综合/" style="font-size: 13.75px;">综合</a> <a href="/ebook/tags/编译/" style="font-size: 10px;">编译</a> <a href="/ebook/tags/网站建设/" style="font-size: 10px;">网站建设</a> <a href="/ebook/tags/网络/" style="font-size: 11.88px;">网络</a> <a href="/ebook/tags/计算机文化/" style="font-size: 16.88px;">计算机文化</a> <a href="/ebook/tags/设计模式/" style="font-size: 11.88px;">设计模式</a> <a href="/ebook/tags/逆向/" style="font-size: 16.25px;">逆向</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/ebook/archives/2016/04/">四月 2016</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ebook/archives/2016/03/">三月 2016</a><span class="archive-list-count">72</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ebook/archives/2016/02/">二月 2016</a><span class="archive-list-count">33</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ebook/archives/2016/01/">一月 2016</a><span class="archive-list-count">84</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ebook/archives/2015/12/">十二月 2015</a><span class="archive-list-count">27</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ebook/archives/2015/11/">十一月 2015</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ebook/archives/2015/09/">九月 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ebook/archives/2015/07/">七月 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ebook/archives/2015/06/">六月 2015</a><span class="archive-list-count">28</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ebook/archives/2015/05/">五月 2015</a><span class="archive-list-count">46</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ebook/archives/2015/04/">四月 2015</a><span class="archive-list-count">100</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ebook/archives/2015/03/">三月 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ebook/archives/2015/01/">一月 2015</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ebook/archives/2014/10/">十月 2014</a><span class="archive-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 IKin<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/ebook/../" class="mobile-nav-link">Home</a>
+  
+    <a href="/ebook/../ebook/" class="mobile-nav-link">Ebook</a>
+  
+    <a href="/ebook/../about/" class="mobile-nav-link">About</a>
+  
+</nav>
+    
+
+<script src="//apps.bdimg.com/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/ebook/fancybox/jquery.fancybox.css">
+  <script src="/ebook/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/ebook/js/script.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?2de072f84a3c26d66dbb30aeadaf3cbe";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+  </div>
+</body>
+</html>

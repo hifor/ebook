@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>计算机电子书 - Hifor</title>
+  <icon>https://www.gravatar.com/avatar/76d7d1b3f28d78707ec91d36a4b57080</icon>
+  
+  <link href="/ebook/atom.xml" rel="self"/>
+  
+  <link href="http://hifor.net/"/>
+  <updated>2016-04-01T17:36:52.000Z</updated>
+  <id>http://hifor.net/</id>
+  
+  <author>
+    <name>IKin</name>
+    <email>ikin@hifor.net</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux C 一站式学习</title>
+    <link href="http://hifor.net/uncategorized/linux-c-%E4%B8%80%E7%AB%99%E5%BC%8F%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://hifor.net/uncategorized/linux-c-一站式学习/</id>
+    <published>2016-04-02T08:26:13.000Z</published>
+    <updated>2016-04-01T17:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://img1.doubanio.com/lpic/s24562068.jpg" alt=""></p><p>作者：宋劲杉</p><p>来源：<a href="http://akaedu.github.io/book/" target="_blank" rel="noopener">Linux C编程一站式学习</a></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/wizardforcel/linux-c-book/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/wizardforcel/linux-c-book" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/wizardforcel/linux-c-book" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/wizardforcel/linux-c-book" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://img1.doubanio.com/lpic/s24562068.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;作者：宋劲杉&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href=&quot;http://akaedu.github.io/book/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Linux C编程一站式学习&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="c" scheme="http://hifor.net/tags/c/"/>
+    
+      <category term="linux" scheme="http://hifor.net/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python进阶</title>
+    <link href="http://hifor.net/uncategorized/interpy-zh/"/>
+    <id>http://hifor.net/uncategorized/interpy-zh/</id>
+    <published>2016-04-01T05:51:04.000Z</published>
+    <updated>2016-04-01T17:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://github.com/yasoob/intermediatePython/raw/master/_static/cover.png" width="500"></p><p>作者：<a href="https://github.com/yasoob" target="_blank" rel="noopener">yasoob</a></p><p>译者：<a href="https://github.com/eastlakeside" target="_blank" rel="noopener">eastlakeside</a></p><p>来源：<a href="https://github.com/eastlakeside/interpy-zh" target="_blank" rel="noopener">interpy-zh</a></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/eastlakeside/interpy-zh/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/eastlakeside/interpy-zh" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/eastlakeside/interpy-zh" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/eastlakeside/interpy-zh" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://github.com/yasoob/intermediatePython/raw/master/_static/cover.png&quot; width=&quot;500&quot;&gt;&lt;/p&gt;
+&lt;p&gt;作者：&lt;a href=&quot;https://github.com/yasoob&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;yasoob&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;译者：&lt;a href=&quot;https://github.com/eastlakeside&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;eastlakeside&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href=&quot;https://github.com/eastlakeside/interpy-zh&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;interpy-zh&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="python" scheme="http://hifor.net/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git Reference （英文）</title>
+    <link href="http://hifor.net/uncategorized/git-ref-en/"/>
+    <id>http://hifor.net/uncategorized/git-ref-en/</id>
+    <published>2016-03-30T13:17:58.000Z</published>
+    <updated>2016-04-01T17:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://ek8whxe.cloudimg.io/s/width/226/https://www.gitbook.com/cover/book/wizardforcel/git-ref-en.jpg?build=1452162345819&amp;v=12.0.4" alt=""></p><p>来源：<a href="https://git-scm.com/docs" target="_blank" rel="noopener">Git Refernece</a></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/wizardforcel/git-ref-en/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/wizardforcel/git-ref-en" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/wizardforcel/git-ref-en" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/wizardforcel/git-ref-en" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://ek8whxe.cloudimg.io/s/width/226/https://www.gitbook.com/cover/book/wizardforcel/git-ref-en.jpg?build=1452162345819&amp;amp;v=12.0.4&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href=&quot;https://git-scm.com/docs&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Git Refernece&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="git" scheme="http://hifor.net/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Sqlite 3.7.3 文档（英文）</title>
+    <link href="http://hifor.net/uncategorized/sqlite-doc-en/"/>
+    <id>http://hifor.net/uncategorized/sqlite-doc-en/</id>
+    <published>2016-03-30T04:32:14.000Z</published>
+    <updated>2016-04-01T17:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://ek8whxe.cloudimg.io/s/width/226/https://www.gitbook.com/cover/book/wizardforcel/sqlite-doc-en.jpg?build=1452495789786&amp;v=12.0.4" alt=""></p><p>来源：<a href="http://www.sqlite.org/docs.html" target="_blank" rel="noopener">SQLite Documents</a></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/wizardforcel/sqlite-doc-en/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/wizardforcel/sqlite-doc-en" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/wizardforcel/sqlite-doc-en" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/wizardforcel/sqlite-doc-en" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://ek8whxe.cloudimg.io/s/width/226/https://www.gitbook.com/cover/book/wizardforcel/sqlite-doc-en.jpg?build=1452495789786&amp;amp;v=12.0.4&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href=&quot;http://www.sqlite.org/docs.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;SQLite Documents&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="sqlite" scheme="http://hifor.net/tags/sqlite/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C/C++ API 参考（英文）</title>
+    <link href="http://hifor.net/uncategorized/c-cpp-cplusplus-com/"/>
+    <id>http://hifor.net/uncategorized/c-cpp-cplusplus-com/</id>
+    <published>2016-03-30T04:24:44.000Z</published>
+    <updated>2016-04-01T17:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://ww3.sinaimg.cn/large/841aea59jw1f2eryg7yitj20qv0krthe.jpg" width="500"></p><p>来源：<a href="http://www.cplusplus.com/reference/" target="_blank" rel="noopener">Standard C++ Library reference</a></p><p>格式：CHM</p><p>日期：2014.10.23</p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="http://www.cplusplus.com/reference/" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="http://download.csdn.net/download/wizardforcel/8073981" target="_blank" rel="noopener">CSDN下载</a></li><li><a href="http://down.51cto.com/data/1887796" target="_blank" rel="noopener">51CTO下载</a></li><li><a href="http://vdisk.weibo.com/s/aADaW4YRiZNl9" target="_blank" rel="noopener">微盘下载</a></li><li><a href="http://1000eb.com/1khkb" target="_blank" rel="noopener">千易下载</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/large/841aea59jw1f2eryg7yitj20qv0krthe.jpg&quot; width=&quot;500&quot;&gt;&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href=&quot;http://www.cplusplus.com/reference/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Standard C++ Library reference&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;格式：CHM&lt;/p&gt;
+&lt;p&gt;日期：2014.10.23&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="c" scheme="http://hifor.net/tags/c/"/>
+    
+      <category term="cpp" scheme="http://hifor.net/tags/cpp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Learn C The Hard Way （英文）</title>
+    <link href="http://hifor.net/uncategorized/lcthw-en/"/>
+    <id>http://hifor.net/uncategorized/lcthw-en/</id>
+    <published>2016-03-29T14:04:41.000Z</published>
+    <updated>2016-04-01T17:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://ek8whxe.cloudimg.io/s/width/226/https://www.gitbook.com/cover/book/wizardforcel/lcthw-en.jpg?build=1452162345819&amp;v=12.0.4" alt=""></p><p>作者：Zed A. Shaw</p><p>来源：<a href="http://c.learncodethehardway.org/book/" target="_blank" rel="noopener">Learn C The Hard Way</a></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/wizardforcel/lcthw-en/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/wizardforcel/lcthw-en" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/wizardforcel/lcthw-en" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/wizardforcel/lcthw-en" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://ek8whxe.cloudimg.io/s/width/226/https://www.gitbook.com/cover/book/wizardforcel/lcthw-en.jpg?build=1452162345819&amp;amp;v=12.0.4&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;作者：Zed A. Shaw&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href=&quot;http://c.learncodethehardway.org/book/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Learn C The Hard Way&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="c" scheme="http://hifor.net/tags/c/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SciPy Cookbook （英文）</title>
+    <link href="http://hifor.net/uncategorized/scipy-cookbook/"/>
+    <id>http://hifor.net/uncategorized/scipy-cookbook/</id>
+    <published>2016-03-28T08:54:07.000Z</published>
+    <updated>2016-04-01T17:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://ek8whxe.cloudimg.io/s/width/226/https://www.gitbook.com/cover/book/wizardforcel/scipy-cookbook-en.jpg?build=1439249362341&amp;v=12.0.2" alt=""></p><p>来源：<a href="http://scipy-cookbook.readthedocs.org/index.html" target="_blank" rel="noopener">SciPy Cookbook</a></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/wizardforcel/scipy-cookbook-en/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/wizardforcel/scipy-cookbook-en" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/wizardforcel/scipy-cookbook-en" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/wizardforcel/scipy-cookbook-en" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://ek8whxe.cloudimg.io/s/width/226/https://www.gitbook.com/cover/book/wizardforcel/scipy-cookbook-en.jpg?build=1439249362341&amp;amp;v=12.0.2&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href=&quot;http://scipy-cookbook.readthedocs.org/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;SciPy Cookbook&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="python" scheme="http://hifor.net/tags/python/"/>
+    
+      <category term="科学计算" scheme="http://hifor.net/tags/%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/"/>
+    
+      <category term="scipy" scheme="http://hifor.net/tags/scipy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>清华大学计算机系网络课程</title>
+    <link href="http://hifor.net/uncategorized/thu-cs-courses/"/>
+    <id>http://hifor.net/uncategorized/thu-cs-courses/</id>
+    <published>2016-03-26T07:30:41.000Z</published>
+    <updated>2016-04-01T17:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/841aea59jw1f2aatave6xj20o50imgtq.jpg" alt=""></p><p>格式：CHM</p><p>大小：456 MB (478,536,208 字节)</p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="http://class.anycodes.cn/" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="http://pan.baidu.com/share/link?uk=1292237220&amp;shareid=2034612235" target="_blank" rel="noopener">百度云下载</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/841aea59jw1f2aatave6xj20o50imgtq.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;格式：CHM&lt;/p&gt;
+&lt;p&gt;大小：456 MB (478,536,208 字节)&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="综合" scheme="http://hifor.net/tags/%E7%BB%BC%E5%90%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python 核心编程 第二版</title>
+    <link href="http://hifor.net/uncategorized/core-python/"/>
+    <id>http://hifor.net/uncategorized/core-python/</id>
+    <published>2016-03-24T08:33:16.000Z</published>
+    <updated>2016-04-01T17:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://ww2.sinaimg.cn/large/841aea59jw1f281f6ovxej20er0kv3zs.jpg" alt=""></p><p>作者：Wesley J. Chun（陳仲才） </p><p>译者：<a href="http://wiki.woodpecker.org.cn/moin/CorePyProgramming" target="_blank" rel="noopener">CPyUG</a></p><p>来源：<a href="http://openbookproject.googlecode.com/" target="_blank" rel="noopener">OpenBookProject</a></p><p>协议：CC BY-NC-ND 2.5</p><p>格式：EPUB</p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="http://openbookproject.googlecode.com/svn/trunk/CorePython_zh/" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="http://vdisk.weibo.com/s/aADaW4YRiZOis" target="_blank" rel="noopener">微盘下载</a></li><li><a href="http://1000eb.com/1jzo4" target="_blank" rel="noopener">千易下载</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/large/841aea59jw1f281f6ovxej20er0kv3zs.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;作者：Wesley J. Chun（陳仲才） &lt;/p&gt;
+&lt;p&gt;译者：&lt;a href=&quot;http://wiki.woodpecker.org.cn/moin/CorePyProgramming&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CPyUG&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href=&quot;http://openbookproject.googlecode.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;OpenBookProject&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;协议：CC BY-NC-ND 2.5&lt;/p&gt;
+&lt;p&gt;格式：EPUB&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="python" scheme="http://hifor.net/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>像计算机科学家一样思考python 第二版</title>
+    <link href="http://hifor.net/uncategorized/think-python-2e/"/>
+    <id>http://hifor.net/uncategorized/think-python-2e/</id>
+    <published>2016-03-24T07:46:48.000Z</published>
+    <updated>2016-04-01T17:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://img1.doubanio.com/lpic/s28369222.jpg" alt=""></p><p>作者：<a href="http://greenteapress.com/wp/think-python/" target="_blank" rel="noopener">Allen B. Downey</a></p><p>翻译：<a href="https://github.com/cycleuser" target="_blank" rel="noopener">cycleuser</a></p><p>来源：<a href="https://github.com/cycleuser/ThinkPython-en-cn" target="_blank" rel="noopener">ThinkPython-en-cn</a></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/wizardforcel/think-python-2e/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/wizardforcel/think-python-2e" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/wizardforcel/think-python-2e" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/wizardforcel/think-python-2e" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://img1.doubanio.com/lpic/s28369222.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;作者：&lt;a href=&quot;http://greenteapress.com/wp/think-python/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Allen B. Downey&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;翻译：&lt;a href=&quot;https://github.com/cycleuser&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;cycleuser&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href=&quot;https://github.com/cycleuser/ThinkPython-en-cn&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ThinkPython-en-cn&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="python" scheme="http://hifor.net/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CTF Field Guide</title>
+    <link href="http://hifor.net/uncategorized/ctf-field-guide/"/>
+    <id>http://hifor.net/uncategorized/ctf-field-guide/</id>
+    <published>2016-03-24T04:05:23.000Z</published>
+    <updated>2016-04-01T17:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>作者：<a href="https://github.com/trailofbits" target="_blank" rel="noopener">trailofbits</a></p><p>来源：<a href="https://github.com/trailofbits/ctf" target="_blank" rel="noopener">ctf</a></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://trailofbits.github.io/ctf/" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://github.com/trailofbits/ctf/archive/master.zip" target="_blank" rel="noopener">Markdown格式</a></li></ul><p>其它格式请安装 gitbook 和 calibre 后自行编译。</p><figure class="highlight coq"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd your_dir</span><br><span class="line">gitbook pdf|<span class="type">epub</span>|<span class="type">mobi</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;作者：&lt;a href=&quot;https://github.com/trailofbits&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;trailofbits&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href=&quot;https://github.com/trailofbits/ctf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ctf&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="逆向" scheme="http://hifor.net/tags/%E9%80%86%E5%90%91/"/>
+    
+      <category term="ctf" scheme="http://hifor.net/tags/ctf/"/>
+    
+      <category term="渗透" scheme="http://hifor.net/tags/%E6%B8%97%E9%80%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Functional Programming in Python</title>
+    <link href="http://hifor.net/uncategorized/functional-programming-python/"/>
+    <id>http://hifor.net/uncategorized/functional-programming-python/</id>
+    <published>2016-03-24T04:03:39.000Z</published>
+    <updated>2016-04-01T17:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://covers.oreillystatic.com/images/0636920041368/cat.gif" alt=""></p><p>作者：<a href="http://www.oreilly.com/pub/au/1190" target="_blank" rel="noopener">David Mertz</a></p><p>来源：<a href="http://www.oreilly.com/programming/free/functional-programming-python.csp" target="_blank" rel="noopener">Functional Programming in Python</a></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><p>暂无。</p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="http://www.oreilly.com/programming/free/files/functional-programming-python.pdf" target="_blank" rel="noopener">PDF格式</a></li><li><a href="http://www.oreilly.com/programming/free/files/functional-programming-python.epub" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="http://www.oreilly.com/programming/free/files/functional-programming-python.mobi" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://covers.oreillystatic.com/images/0636920041368/cat.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;作者：&lt;a href=&quot;http://www.oreilly.com/pub/au/1190&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;David Mertz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;来源：&lt;a href=&quot;http://www.oreilly.com/programming/free/functional-programming-python.csp&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Functional Programming in Python&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="python" scheme="http://hifor.net/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>那些年我们一起学XSS</title>
+    <link href="http://hifor.net/uncategorized/%E9%82%A3%E4%BA%9B%E5%B9%B4%E6%88%91%E4%BB%AC%E4%B8%80%E8%B5%B7%E5%AD%A6-xss/"/>
+    <id>http://hifor.net/uncategorized/那些年我们一起学-xss/</id>
+    <published>2016-03-23T08:17:47.000Z</published>
+    <updated>2016-04-01T17:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://ek8whxe.cloudimg.io/s/width/226/https://www.gitbook.com/cover/book/wizardforcel/xss-naxienian.jpg?build=1439249362341&amp;v=12.0.2" alt=""></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/wizardforcel/xss-naxienian/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/wizardforcel/xss-naxienian" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/wizardforcel/xss-naxienian" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/wizardforcel/xss-naxienian" target="_blank" rel="noopener">mobi格式</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://ek8whxe.cloudimg.io/s/width/226/https://www.gitbook.com/cover/book/wizardforcel/xss-naxienian.jpg?build=1439249362341&amp;amp;v=12.0.2&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="渗透" scheme="http://hifor.net/tags/%E6%B8%97%E9%80%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Octave 入门</title>
+    <link href="http://hifor.net/uncategorized/octave-%E5%85%A5%E9%97%A8/"/>
+    <id>http://hifor.net/uncategorized/octave-入门/</id>
+    <published>2016-03-23T02:25:33.000Z</published>
+    <updated>2016-04-01T17:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/841aea59jw1f26l45n76oj20ka0q878b.jpg" width="500"></p><p>格式：PDF</p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><p>暂无。</p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="http://download.csdn.net/detail/u012550782/6455307" target="_blank" rel="noopener">CSDN下载</a></li><li><a href="http://vdisk.weibo.com/s/aADaW4YRjjofa" target="_blank" rel="noopener">微盘下载</a></li><li><a href="http://1000eb.com/1jmn0" target="_blank" rel="noopener">千易下载</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/841aea59jw1f26l45n76oj20ka0q878b.jpg&quot; width=&quot;500&quot;&gt;&lt;/p&gt;
+&lt;p&gt;格式：PDF&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="科学计算" scheme="http://hifor.net/tags/%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/"/>
+    
+      <category term="octave" scheme="http://hifor.net/tags/octave/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Gimp 中文手册</title>
+    <link href="http://hifor.net/uncategorized/gimp-%E4%B8%AD%E6%96%87%E6%89%8B%E5%86%8C/"/>
+    <id>http://hifor.net/uncategorized/gimp-中文手册/</id>
+    <published>2016-03-23T02:18:03.000Z</published>
+    <updated>2016-04-01T17:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://ww2.sinaimg.cn/large/841aea59jw1f26kyh5ghgj20jt0s13ym.jpg" width="500"></p><p>格式：PDF</p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><p>暂无。</p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="http://pan.baidu.com/share/link?shareid=441114&amp;uk=2435549136" target="_blank" rel="noopener">百度云下载</a></li><li><a href="http://vdisk.weibo.com/s/aADaW4YRjjnDa" target="_blank" rel="noopener">微盘下载</a></li><li><a href="http://1000eb.com/1jmlh" target="_blank" rel="noopener">千易下载</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/large/841aea59jw1f26kyh5ghgj20jt0s13ym.jpg&quot; width=&quot;500&quot;&gt;&lt;/p&gt;
+&lt;p&gt;格式：PDF&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="gimp" scheme="http://hifor.net/tags/gimp/"/>
+    
+      <category term="图像处理" scheme="http://hifor.net/tags/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 GnuPlot 科学作图</title>
+    <link href="http://hifor.net/uncategorized/%E4%BD%BF%E7%94%A8-gnuplot-%E7%A7%91%E5%AD%A6%E4%BD%9C%E5%9B%BE/"/>
+    <id>http://hifor.net/uncategorized/使用-gnuplot-科学作图/</id>
+    <published>2016-03-23T02:14:04.000Z</published>
+    <updated>2016-04-01T17:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://ww4.sinaimg.cn/large/841aea59jw1f26ks49obnj20mo0tc420.jpg" width="500"></p><p>格式：PDF</p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><p>暂无。</p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="http://www.phy.fju.edu.tw/files/archive/876_ab57aed9.pdf" target="_blank" rel="noopener">原地址</a></li><li><a href="http://vdisk.weibo.com/s/aADaW4YRjjn_5" target="_blank" rel="noopener">微盘下载</a></li><li><a href="http://1000eb.com/1jmkf" target="_blank" rel="noopener">千易下载</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/large/841aea59jw1f26ks49obnj20mo0tc420.jpg&quot; width=&quot;500&quot;&gt;&lt;/p&gt;
+&lt;p&gt;格式：PDF&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="科学计算" scheme="http://hifor.net/tags/%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/"/>
+    
+      <category term="gnuplot" scheme="http://hifor.net/tags/gnuplot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SciPy Lecture Notes 中文版</title>
+    <link href="http://hifor.net/uncategorized/scipy-lecture-notes/"/>
+    <id>http://hifor.net/uncategorized/scipy-lecture-notes/</id>
+    <published>2016-03-21T11:39:56.000Z</published>
+    <updated>2016-04-01T17:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://ek8whxe.cloudimg.io/s/width/226/https://www.gitbook.com/cover/book/wizardforcel/scipy-lecture-notes.jpg?build=1439249362341&amp;v=12.0.2" alt=""></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/wizardforcel/scipy-lecture-notes/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/wizardforcel/scipy-lecture-notes" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/wizardforcel/scipy-lecture-notes" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/wizardforcel/scipy-lecture-notes" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://ek8whxe.cloudimg.io/s/width/226/https://www.gitbook.com/cover/book/wizardforcel/scipy-lecture-notes.jpg?build=1439249362341&amp;amp;v=12.0.2&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="python" scheme="http://hifor.net/tags/python/"/>
+    
+      <category term="科学计算" scheme="http://hifor.net/tags/%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/"/>
+    
+      <category term="scipy" scheme="http://hifor.net/tags/scipy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简明 Python 教程</title>
+    <link href="http://hifor.net/uncategorized/a-byte-of-python/"/>
+    <id>http://hifor.net/uncategorized/a-byte-of-python/</id>
+    <published>2016-03-19T08:07:17.000Z</published>
+    <updated>2016-04-01T17:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://img3.doubanio.com/lpic/s28291750.jpg" alt=""></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/wizardforcel/a-byte-of-python/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/wizardforcel/a-byte-of-python" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/wizardforcel/a-byte-of-python" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/wizardforcel/a-byte-of-python" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://img3.doubanio.com/lpic/s28291750.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="python" scheme="http://hifor.net/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Dive Into Python3 中文版</title>
+    <link href="http://hifor.net/uncategorized/dive-into-python3/"/>
+    <id>http://hifor.net/uncategorized/dive-into-python3/</id>
+    <published>2016-03-19T07:02:40.000Z</published>
+    <updated>2016-04-01T17:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://img1.doubanio.com/lpic/s4059293.jpg" alt=""></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/wizardforcel/dive-into-python3/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/wizardforcel/dive-into-python3" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/wizardforcel/dive-into-python3" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/wizardforcel/dive-into-python3" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://img1.doubanio.com/lpic/s4059293.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="python" scheme="http://hifor.net/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Introduction To Tornado 中文版</title>
+    <link href="http://hifor.net/uncategorized/introduction-to-tornado/"/>
+    <id>http://hifor.net/uncategorized/introduction-to-tornado/</id>
+    <published>2016-03-19T04:02:01.000Z</published>
+    <updated>2016-04-01T17:36:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://box.kancloud.cn/cover_2015-09-02_55e6e8dc790a_800x1068.jpg?imageMogr2/thumbnail/173x231!/interlace/1/quality/100" alt=""></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="http://www.kancloud.cn/kancloud/introduction_to_tornado" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="http://www.kancloud.cn/kancloud/introduction_to_tornado" target="_blank" rel="noopener">下载地址</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://box.kancloud.cn/cover_2015-09-02_55e6e8dc790a_800x1068.jpg?imageMogr2/thumbnail/173x231!/interlace/1/quality/100&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="python" scheme="http://hifor.net/tags/python/"/>
+    
+      <category term="tornado" scheme="http://hifor.net/tags/tornado/"/>
+    
+  </entry>
+  
+</feed>
