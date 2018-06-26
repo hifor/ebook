@@ -132,24 +132,24 @@
 </article>
 
 
-  <section id="comments">
-    <!-- 多说评论框 start -->
-    <div class="ds-thread" data-thread-key="post-写给大家看的-ppt-设计书" data-title="写给大家看的ppt设计书" data-url="http://hifor.net/设计/写给大家看的-ppt-设计书/"></div>
-    <!-- 多说评论框 end -->
-    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-    <script type="text/javascript">
-    var duoshuoQuery = {short_name:'hifor'};
-      (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0] 
-         || document.getElementsByTagName('body')[0]).appendChild(ds);
-      })();
-      </script>
-    <!-- 多说公共JS代码 end -->
-  </section>
+<section id="comments"></section>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+    var labels = "blog,gitment";
+    labels = labels.split(",");
+    var gitment = new Gitment({
+        id: window.location.pathname,
+        owner: 'hifor',
+        repo: 'github-pages-comment',
+        oauth: {
+            client_id: '4eed20bfa5f203afa32c',
+            client_secret: 'f9f85f592016611bddfa1f3f2aa4500f016931d3'
+        },
+        labels: labels
+    })
+    gitment.render('comments');
+</script>
 </section>
         
           <aside id="sidebar">
