@@ -121,13 +121,6 @@
     </url>
 
     <url>
-        <loc>http://hifor.net/tags/%E9%80%86%E5%90%91/</loc>
-        <lastmod>2016-04-01T17:36:52.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://hifor.net/tags/angularjs/</loc>
         <lastmod>2016-04-01T17:36:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -206,13 +199,6 @@
 
     <url>
         <loc>http://hifor.net/tags/ctf/</loc>
-        <lastmod>2016-04-01T17:36:52.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://hifor.net/tags/%E6%B8%97%E9%80%8F/</loc>
         <lastmod>2016-04-01T17:36:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -935,6 +921,20 @@
     <url>
         <loc>http://hifor.net/tags/%E4%B8%AD%E9%97%B4%E4%BB%B6/</loc>
         <lastmod>2018-06-24T10:08:31.353Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://hifor.net/tags/%E9%80%86%E5%90%91/</loc>
+        <lastmod>2018-06-25T10:03:38.872Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://hifor.net/tags/%E6%B8%97%E9%80%8F/</loc>
+        <lastmod>2018-06-25T10:03:38.872Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
