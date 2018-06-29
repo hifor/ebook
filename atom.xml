@@ -6,7 +6,7 @@
   <link href="/ebook/atom.xml" rel="self"/>
   
   <link href="http://hifor.net/"/>
-  <updated>2018-06-24T10:08:31.353Z</updated>
+  <updated>2018-06-29T01:11:40.738Z</updated>
   <id>http://hifor.net/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://hifor.net/%E5%88%86%E5%B8%83%E5%BC%8F/Kafka-The-Definitive-Guide/"/>
     <id>http://hifor.net/分布式/Kafka-The-Definitive-Guide/</id>
     <published>2018-06-24T10:08:31.000Z</published>
-    <updated>2018-06-24T10:08:31.353Z</updated>
+    <updated>2018-06-29T01:11:40.738Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xjzgy.com1.z0.glb.clouddn.com/book_img/20180624001_Kafka-The-Definitive-Guide.png" alt=""><br>格式：PDF<br>类型：扫描版<br>下载：<a href="https://pan.baidu.com/s/1KP6WnohdgJdg1HoDb9S86g" target="_blank" rel="noopener">百度云</a> 密码：axw1</p><a id="more"></a><h2 id="出版信息"><a href="#出版信息" class="headerlink" title="出版信息"></a>出版信息</h2><p>作者: Neha Narkhede / Gwen Shapira / Todd Palino<br>出版社: 人民邮电出版社<br>原作名: Kafka: The Definitive Guide<br>译者: 薛命灯<br>出版年: 2017-12-26<br>页数: 214<br>定价: 69.00元<br>装帧: 平装<br>ISBN: 9787115473271</p><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>每个应用程序都会产生数据，包括日志消息、度量指标、用户活动记录、响应消息等。如何移动数据，几乎变得与数据本身一样重要。如果你是架构师、开发者或者产品工程师，同时也是Apache Kafka新手，那么这本实践指南将会帮助你成为流式平台上处理实时数据的专家。</p><p>本书由出身于LinkedIn的Kafka核心作者和一线技术人员共同执笔，详细介绍了如何部署Kafka集群、开发可靠的基于事件驱动的微服务，以及基于Kafka平台构建可伸缩的流式应用程序。通过详尽示例，你将会了解到Kafka的设计原则、可靠性保证、关键API，以及复制协议、控制器和存储层等架构细节。</p><p>● 了解发布和订阅消息模型以及该模型如何被应用在大数据生态系统中</p><p>● 学习使用Kafka生产者和消费者来生成消息和读取消息</p><p>● 了解Kafka保证可靠性数据传递的模式和场景需求</p><p>● 使用Kafka构建数据管道和应用程序的最佳实践</p><p>● 在生产环境中管理Kafka，包括监控、调优和维护</p><p>● 了解Kafka的关键度量指标</p><p>● 探索Kafka如何成为流式处理利器</p><h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>序 xiii<br>前言 xv<br>第 1 章　初识Kafka 1<br>1.1　发布与订阅消息系统 1<br>1.1.1　如何开始 2<br>1.1.2　独立的队列系统 3<br>1.2　Kafka登场 4<br>1.2.1　消息和批次 4<br>1.2.2　模式 4<br>1.2.3　主题和分区 5<br>1.2.4　生产者和消费者 5<br>1.2.5　broker和集群 6<br>1.2.6　多集群 7<br>1.3　为什么选择Kafka 8<br>1.3.1　多个生产者 8<br>1.3.2　多个消费者 8<br>1.3.3　基于磁盘的数据存储 9<br>1.3.4　伸缩性 9<br>1.3.5　高性能 9<br>1.4　数据生态系统 9<br>1.5　起源故事 11<br>1.5.1　LinkedIn的问题 11<br>1.5.2　Kafka的诞生 12<br>1.5.3　走向开源 12<br>1.5.4　命名 13<br>1.6　开始Kafka之旅 13<br>第 2 章　安装Kafka 14<br>2.1　要事先行 14<br>2.1.1　选择操作系统 14<br>2.1.2　安装Java 14<br>2.1.3　安装Zookeeper 15<br>2.2　安装Kafka Broker 17<br>2.3　broker配置 18<br>2.3.1　常规配置 18<br>2.3.2　主题的默认配置 19<br>2.4　硬件的选择 23<br>2.4.1　磁盘吞吐量 23<br>2.4.2　磁盘容量 23<br>2.4.3　内存 23<br>2.4.4　网络 24<br>2.4.5　CPU 24<br>2.5　云端的Kafka 24<br>2.6　Kafka集群 24<br>2.6.1　需要多少个broker 25<br>2.6.2　broker 配置 25<br>2.6.3　操作系统调优 26<br>2.7　生产环境的注意事项 28<br>2.7.1　垃圾回收器选项 28<br>2.7.2　数据中心布局 29<br>2.7.3　共享Zookeeper 29<br>2.8　总结 30<br>第 3 章　Kafka生产者——向Kafka写入数据 31<br>3.1　生产者概览 32<br>3.2　创建Kafka生产者 33<br>3.3　发送消息到Kafka 34<br>3.3.1　同步发送消息 35<br>3.3.2　异步发送消息 35<br>3.4　生产者的配置 36<br>3.5　序列化器 39<br>3.5.1　自定义序列化器 39<br>3.5.2　使用Avro序列化 41<br>3.5.3　在Kafka里使用Avro 42<br>3.6　分区 45<br>3.7　旧版的生产者API 46<br>3.8　总结 47<br>第 4 章　Kafka消费者——从Kafka读取数据 48<br>4.1　KafkaConsumer概念 48<br>4.1.1　消费者和消费者群组 48<br>4.1.2　消费者群组和分区再均衡 51<br>4.2　创建Kafka消费者 52<br>4.3　订阅主题 53<br>4.4　轮询 53<br>4.5　消费者的配置 55<br>4.6　提交和偏移量 57<br>4.6.1　自动提交 58<br>4.6.2　提交当前偏移量 59<br>4.6.3　异步提交 59<br>4.6.4　同步和异步组合提交 61<br>4.6.5　提交特定的偏移量 61<br>4.7　再均衡监听器 62<br>4.8　从特定偏移量处开始处理记录 64<br>4.9　如何退出 66<br>4.10　反序列化器 67<br>4.11　独立消费者——为什么以及怎样使用没有群组的消费者 71<br>4.12　旧版的消费者API 71<br>4.13　总结 72<br>第 5 章　深入Kafka 73<br>5.1　集群成员关系 73<br>5.2　控制器 74<br>5.3　复制 74<br>5.4　处理请求 76<br>5.4.1　生产请求 78<br>5.4.2　获取请求 78<br>5.4.3　其他请求 80<br>5.5　物理存储 81<br>5.5.1　分区分配 81<br>5.5.2　文件管理 82<br>5.5.3　文件格式 83<br>5.5.4　索引 84<br>5.5.5　清理 84<br>5.5.6　清理的工作原理 84<br>5.5.7　被删除的事件 86<br>5.5.8　何时会清理主题 86<br>5.9　总结 86<br>第 6 章　可靠的数据传递 87<br>6.1　可靠性保证 87<br>6.2　复制 88<br>6.3　broker配置 89<br>6.3.1　复制系数 89<br>6.3.2　不完全的首领选举 90<br>6.3.3　最少同步副本 91<br>6.4　在可靠的系统里使用生产者 92<br>6.4.1　发送确认 92<br>6.4.2　配置生产者的重试参数 93<br>6.4.3　额外的错误处理 94<br>6.5　在可靠的系统里使用消费者 94<br>6.5.1　消费者的可靠性配置 95<br>6.5.2　显式提交偏移量 95<br>6.6　验证系统可靠性 97<br>6.6.1　配置验证 98<br>6.6.2　应用程序验证 98<br>6.6.3　在生产环境监控可靠性 99<br>6.7　总结 100<br>第 7 章　构建数据管道 101<br>7.1　构建数据管道时需要考虑的问题 102<br>7.1.1　及时性 102<br>7.1.2　可靠性 102<br>7.1.3　高吞吐量和动态吞吐量 103<br>7.1.4　数据格式 103<br>7.1.5　转换 104<br>7.1.6　安全性 104<br>7.1.7　故障处理能力 104<br>7.1.8　耦合性和灵活性 105<br>7.2　如何在Connect API和客户端API之间作出选择 105<br>7.3　Kafka Connect 106<br>7.3.1　运行Connect 106<br>7.3.2　连接器示例——文件数据源和文件数据池 107<br>7.3.3　连接器示例——从MySQL到ElasticSearch 109<br>7.3.4　深入理解Connect 114<br>7.4　Connect之外的选择 116<br>7.4.1　用于其他数据存储的摄入框架 116<br>7.4.2　基于图形界面的ETL工具 117<br>7.4.3　流式处理框架 117<br>7.5　总结 117<br>第 8 章　跨集群数据镜像 118<br>8.1　跨集群镜像的使用场景 118<br>8.2　多集群架构 119<br>8.2.1　跨数据中心通信的一些现实情况 119<br>8.2.2　Hub和Spoke架构 120<br>8.2.3　双活架构 121<br>8.2.4　主备架构 123<br>8.2.5　延展集群 127<br>8.3　Kafka的MirrorMaker 128<br>8.3.1　如何配置 129<br>8.3.2　在生产环境部署MirrorMaker 130<br>8.3.3　MirrorMaker调优 132<br>8.4　其他跨集群镜像方案 134<br>8.4.1　优步的uReplicator 134<br>8.4.2　Confluent的Replicator 135<br>8.5　总结 135<br>第 9 章　管理Kafka 136<br>9.1　主题操作 136<br>9.1.1　创建主题 137<br>9.1.2　增加分区 138<br>9.1.3　删除主题 138<br>9.1.4　列出集群里的所有主题 139<br>9.1.5　列出主题详细信息 139<br>9.2　消费者群组 140<br>9.2.1　列出并描述群组 140<br>9.2.2　删除群组 142<br>9.2.3　偏移量管理 142<br>9.3　动态配置变更 143<br>9.3.1　覆盖主题的默认配置 143<br>9.3.2　覆盖客户端的默认配置 145<br>9.3.3　列出被覆盖的配置 145<br>9.3.4　移除被覆盖的配置 146<br>9.4　分区管理 146<br>9.4.1　首选的首领选举 146<br>9.4.2　修改分区副本 147<br>9.4.3　修改复制系数 150<br>9.4.4　转储日志片段 151<br>9.4.5　副本验证 152<br>9.5　消费和生产 153<br>9.5.1　控制台消费者 153<br>9.5.2　控制台生产者 155<br>9.6　客户端ACL 157<br>9.7　不安全的操作 157<br>9.7.1　移动集群控制器 157<br>9.7.2　取消分区重分配 157<br>9.7.3　移除待删除的主题 158<br>9.7.4　手动删除主题 158<br>9.8　总结 159<br>第 10 章　监控Kafka 160<br>10.1　度量指标基础 160<br>10.1.1　度量指标在哪里 160<br>10.1.2　内部或外部度量 161<br>10.1.3　应用程序健康检测 161<br>10.1.4　度量指标的覆盖面 161<br>10.2　broker的度量指标 162<br>10.2.1　非同步分区 162<br>10.2.2　broker度量指标 166<br>10.2.3　主题和分区的度量指标 173<br>10.2.4　Java虚拟机监控 174<br>10.2.5　操作系统监控 175<br>10.2.6　日志 176<br>10.3　客户端监控 177<br>10.3.1　生产者度量指标 177<br>10.3.2　消费者度量指标 179<br>10.3.3　配额 181<br>10.4　延时监控 182<br>10.5　端到端监控 183<br>10.6　总结 183<br>第 11 章　流式处理 184<br>11.1　什么是流式处理 185<br>11.2　流式处理的一些概念 186<br>11.2.1　时间 187<br>11.2.2　状态 188<br>11.2.3　流和表的二元性 188<br>11.2.4　时间窗口 189<br>11.3　流式处理的设计模式 190<br>11.3.1　单个事件处理 191<br>11.3.2　使用本地状态 191<br>11.3.3　多阶段处理和重分区 193<br>11.3.4　使用外部查找——流和表的连接 193<br>11.3.5　流与流的连接 195<br>11.3.6　乱序的事件 195<br>11.3.7　重新处理 196<br>11.4　Streams示例 197<br>11.4.1　字数统计 197<br>11.4.2　股票市场统计 199<br>11.4.3　填充点击事件流 201<br>11.5　Kafka Streams的架构概览 202<br>11.5.1　构建拓扑 202<br>11.5.2　对拓扑进行伸缩 203<br>11.5.3　从故障中存活下来 205<br>11.6　流式处理使用场景 205<br>11.7　如何选择流式处理框架 206<br>11.8　总结 208<br>附录A　在其他操作系统上安装Kafka 209<br>作者介绍 214<br>封面介绍 214</p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://pan.baidu.com/s/1KP6WnohdgJdg1HoDb9S86g" target="_blank" rel="noopener">百度云</a> 密码：axw1</li></ul>]]></content>
     
@@ -47,7 +47,7 @@
     <link href="http://hifor.net/uncategorized/linux-c-%E4%B8%80%E7%AB%99%E5%BC%8F%E5%AD%A6%E4%B9%A0/"/>
     <id>http://hifor.net/uncategorized/linux-c-一站式学习/</id>
     <published>2016-04-02T08:26:13.000Z</published>
-    <updated>2016-04-01T17:36:52.000Z</updated>
+    <updated>2018-06-29T01:11:41.027Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://img1.doubanio.com/lpic/s24562068.jpg" alt=""></p><p>作者：宋劲杉</p><p>来源：<a href="http://akaedu.github.io/book/" target="_blank" rel="noopener">Linux C编程一站式学习</a></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/wizardforcel/linux-c-book/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/wizardforcel/linux-c-book" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/wizardforcel/linux-c-book" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/wizardforcel/linux-c-book" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
     
@@ -71,7 +71,7 @@
     <link href="http://hifor.net/uncategorized/interpy-zh/"/>
     <id>http://hifor.net/uncategorized/interpy-zh/</id>
     <published>2016-04-01T05:51:04.000Z</published>
-    <updated>2016-04-01T17:36:52.000Z</updated>
+    <updated>2018-06-29T01:11:40.946Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://github.com/yasoob/intermediatePython/raw/master/_static/cover.png" width="500"></p><p>作者：<a href="https://github.com/yasoob" target="_blank" rel="noopener">yasoob</a></p><p>译者：<a href="https://github.com/eastlakeside" target="_blank" rel="noopener">eastlakeside</a></p><p>来源：<a href="https://github.com/eastlakeside/interpy-zh" target="_blank" rel="noopener">interpy-zh</a></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/eastlakeside/interpy-zh/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/eastlakeside/interpy-zh" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/eastlakeside/interpy-zh" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/eastlakeside/interpy-zh" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
     
@@ -94,7 +94,7 @@
     <link href="http://hifor.net/uncategorized/git-ref-en/"/>
     <id>http://hifor.net/uncategorized/git-ref-en/</id>
     <published>2016-03-30T13:17:58.000Z</published>
-    <updated>2016-04-01T17:36:52.000Z</updated>
+    <updated>2018-06-29T01:11:40.906Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://ek8whxe.cloudimg.io/s/width/226/https://www.gitbook.com/cover/book/wizardforcel/git-ref-en.jpg?build=1452162345819&amp;v=12.0.4" alt=""></p><p>来源：<a href="https://git-scm.com/docs" target="_blank" rel="noopener">Git Refernece</a></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/wizardforcel/git-ref-en/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/wizardforcel/git-ref-en" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/wizardforcel/git-ref-en" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/wizardforcel/git-ref-en" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
     
@@ -115,7 +115,7 @@
     <link href="http://hifor.net/uncategorized/sqlite-doc-en/"/>
     <id>http://hifor.net/uncategorized/sqlite-doc-en/</id>
     <published>2016-03-30T04:32:14.000Z</published>
-    <updated>2016-04-01T17:36:52.000Z</updated>
+    <updated>2018-06-29T01:11:41.149Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://ek8whxe.cloudimg.io/s/width/226/https://www.gitbook.com/cover/book/wizardforcel/sqlite-doc-en.jpg?build=1452495789786&amp;v=12.0.4" alt=""></p><p>来源：<a href="http://www.sqlite.org/docs.html" target="_blank" rel="noopener">SQLite Documents</a></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/wizardforcel/sqlite-doc-en/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/wizardforcel/sqlite-doc-en" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/wizardforcel/sqlite-doc-en" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/wizardforcel/sqlite-doc-en" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
     
@@ -136,7 +136,7 @@
     <link href="http://hifor.net/uncategorized/c-cpp-cplusplus-com/"/>
     <id>http://hifor.net/uncategorized/c-cpp-cplusplus-com/</id>
     <published>2016-03-30T04:24:44.000Z</published>
-    <updated>2016-04-01T17:36:52.000Z</updated>
+    <updated>2018-06-29T01:11:40.793Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://ww3.sinaimg.cn/large/841aea59jw1f2eryg7yitj20qv0krthe.jpg" width="500"></p><p>来源：<a href="http://www.cplusplus.com/reference/" target="_blank" rel="noopener">Standard C++ Library reference</a></p><p>格式：CHM</p><p>日期：2014.10.23</p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="http://www.cplusplus.com/reference/" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="http://download.csdn.net/download/wizardforcel/8073981" target="_blank" rel="noopener">CSDN下载</a></li><li><a href="http://down.51cto.com/data/1887796" target="_blank" rel="noopener">51CTO下载</a></li><li><a href="http://vdisk.weibo.com/s/aADaW4YRiZNl9" target="_blank" rel="noopener">微盘下载</a></li><li><a href="http://1000eb.com/1khkb" target="_blank" rel="noopener">千易下载</a></li></ul>]]></content>
     
@@ -161,7 +161,7 @@
     <link href="http://hifor.net/uncategorized/lcthw-en/"/>
     <id>http://hifor.net/uncategorized/lcthw-en/</id>
     <published>2016-03-29T14:04:41.000Z</published>
-    <updated>2016-04-01T17:36:52.000Z</updated>
+    <updated>2018-06-29T01:11:41.014Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://ek8whxe.cloudimg.io/s/width/226/https://www.gitbook.com/cover/book/wizardforcel/lcthw-en.jpg?build=1452162345819&amp;v=12.0.4" alt=""></p><p>作者：Zed A. Shaw</p><p>来源：<a href="http://c.learncodethehardway.org/book/" target="_blank" rel="noopener">Learn C The Hard Way</a></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/wizardforcel/lcthw-en/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/wizardforcel/lcthw-en" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/wizardforcel/lcthw-en" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/wizardforcel/lcthw-en" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
     
@@ -183,7 +183,7 @@
     <link href="http://hifor.net/uncategorized/scipy-cookbook/"/>
     <id>http://hifor.net/uncategorized/scipy-cookbook/</id>
     <published>2016-03-28T08:54:07.000Z</published>
-    <updated>2016-04-01T17:36:52.000Z</updated>
+    <updated>2018-06-29T01:11:41.125Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://ek8whxe.cloudimg.io/s/width/226/https://www.gitbook.com/cover/book/wizardforcel/scipy-cookbook-en.jpg?build=1439249362341&amp;v=12.0.2" alt=""></p><p>来源：<a href="http://scipy-cookbook.readthedocs.org/index.html" target="_blank" rel="noopener">SciPy Cookbook</a></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/wizardforcel/scipy-cookbook-en/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/wizardforcel/scipy-cookbook-en" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/wizardforcel/scipy-cookbook-en" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/wizardforcel/scipy-cookbook-en" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
     
@@ -208,7 +208,7 @@
     <link href="http://hifor.net/uncategorized/thu-cs-courses/"/>
     <id>http://hifor.net/uncategorized/thu-cs-courses/</id>
     <published>2016-03-26T07:30:41.000Z</published>
-    <updated>2016-04-01T17:36:52.000Z</updated>
+    <updated>2018-06-29T01:11:41.171Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/841aea59jw1f2aatave6xj20o50imgtq.jpg" alt=""></p><p>格式：CHM</p><p>大小：456 MB (478,536,208 字节)</p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="http://class.anycodes.cn/" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="http://pan.baidu.com/share/link?uk=1292237220&amp;shareid=2034612235" target="_blank" rel="noopener">百度云下载</a></li></ul>]]></content>
     
@@ -230,7 +230,7 @@
     <link href="http://hifor.net/uncategorized/core-python/"/>
     <id>http://hifor.net/uncategorized/core-python/</id>
     <published>2016-03-24T08:33:16.000Z</published>
-    <updated>2016-04-01T17:36:52.000Z</updated>
+    <updated>2018-06-29T01:11:40.806Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://ww2.sinaimg.cn/large/841aea59jw1f281f6ovxej20er0kv3zs.jpg" alt=""></p><p>作者：Wesley J. Chun（陳仲才） </p><p>译者：<a href="http://wiki.woodpecker.org.cn/moin/CorePyProgramming" target="_blank" rel="noopener">CPyUG</a></p><p>来源：<a href="http://openbookproject.googlecode.com/" target="_blank" rel="noopener">OpenBookProject</a></p><p>协议：CC BY-NC-ND 2.5</p><p>格式：EPUB</p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="http://openbookproject.googlecode.com/svn/trunk/CorePython_zh/" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="http://vdisk.weibo.com/s/aADaW4YRiZOis" target="_blank" rel="noopener">微盘下载</a></li><li><a href="http://1000eb.com/1jzo4" target="_blank" rel="noopener">千易下载</a></li></ul>]]></content>
     
@@ -255,7 +255,7 @@
     <link href="http://hifor.net/uncategorized/think-python-2e/"/>
     <id>http://hifor.net/uncategorized/think-python-2e/</id>
     <published>2016-03-24T07:46:48.000Z</published>
-    <updated>2016-04-01T17:36:52.000Z</updated>
+    <updated>2018-06-29T01:11:41.167Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://img1.doubanio.com/lpic/s28369222.jpg" alt=""></p><p>作者：<a href="http://greenteapress.com/wp/think-python/" target="_blank" rel="noopener">Allen B. Downey</a></p><p>翻译：<a href="https://github.com/cycleuser" target="_blank" rel="noopener">cycleuser</a></p><p>来源：<a href="https://github.com/cycleuser/ThinkPython-en-cn" target="_blank" rel="noopener">ThinkPython-en-cn</a></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/wizardforcel/think-python-2e/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/wizardforcel/think-python-2e" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/wizardforcel/think-python-2e" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/wizardforcel/think-python-2e" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
     
@@ -278,7 +278,7 @@
     <link href="http://hifor.net/uncategorized/ctf-field-guide/"/>
     <id>http://hifor.net/uncategorized/ctf-field-guide/</id>
     <published>2016-03-24T04:05:23.000Z</published>
-    <updated>2016-04-01T17:36:52.000Z</updated>
+    <updated>2018-06-29T01:11:40.833Z</updated>
     
     <content type="html"><![CDATA[<p>作者：<a href="https://github.com/trailofbits" target="_blank" rel="noopener">trailofbits</a></p><p>来源：<a href="https://github.com/trailofbits/ctf" target="_blank" rel="noopener">ctf</a></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://trailofbits.github.io/ctf/" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://github.com/trailofbits/ctf/archive/master.zip" target="_blank" rel="noopener">Markdown格式</a></li></ul><p>其它格式请安装 gitbook 和 calibre 后自行编译。</p><figure class="highlight coq"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd your_dir</span><br><span class="line">gitbook pdf|<span class="type">epub</span>|<span class="type">mobi</span></span><br></pre></td></tr></table></figure>]]></content>
     
@@ -303,7 +303,7 @@
     <link href="http://hifor.net/uncategorized/functional-programming-python/"/>
     <id>http://hifor.net/uncategorized/functional-programming-python/</id>
     <published>2016-03-24T04:03:39.000Z</published>
-    <updated>2016-04-01T17:36:52.000Z</updated>
+    <updated>2018-06-29T01:11:40.898Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://covers.oreillystatic.com/images/0636920041368/cat.gif" alt=""></p><p>作者：<a href="http://www.oreilly.com/pub/au/1190" target="_blank" rel="noopener">David Mertz</a></p><p>来源：<a href="http://www.oreilly.com/programming/free/functional-programming-python.csp" target="_blank" rel="noopener">Functional Programming in Python</a></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><p>暂无。</p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="http://www.oreilly.com/programming/free/files/functional-programming-python.pdf" target="_blank" rel="noopener">PDF格式</a></li><li><a href="http://www.oreilly.com/programming/free/files/functional-programming-python.epub" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="http://www.oreilly.com/programming/free/files/functional-programming-python.mobi" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
     
@@ -325,7 +325,7 @@
     <link href="http://hifor.net/uncategorized/%E9%82%A3%E4%BA%9B%E5%B9%B4%E6%88%91%E4%BB%AC%E4%B8%80%E8%B5%B7%E5%AD%A6-xss/"/>
     <id>http://hifor.net/uncategorized/那些年我们一起学-xss/</id>
     <published>2016-03-23T08:17:47.000Z</published>
-    <updated>2016-04-01T17:36:52.000Z</updated>
+    <updated>2018-06-29T01:11:41.468Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://ek8whxe.cloudimg.io/s/width/226/https://www.gitbook.com/cover/book/wizardforcel/xss-naxienian.jpg?build=1439249362341&amp;v=12.0.2" alt=""></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/wizardforcel/xss-naxienian/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/wizardforcel/xss-naxienian" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/wizardforcel/xss-naxienian" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/wizardforcel/xss-naxienian" target="_blank" rel="noopener">mobi格式</a></li></ul>]]></content>
     
@@ -345,7 +345,7 @@
     <link href="http://hifor.net/uncategorized/octave-%E5%85%A5%E9%97%A8/"/>
     <id>http://hifor.net/uncategorized/octave-入门/</id>
     <published>2016-03-23T02:25:33.000Z</published>
-    <updated>2016-04-01T17:36:52.000Z</updated>
+    <updated>2018-06-29T01:11:41.071Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/841aea59jw1f26l45n76oj20ka0q878b.jpg" width="500"></p><p>格式：PDF</p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><p>暂无。</p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="http://download.csdn.net/detail/u012550782/6455307" target="_blank" rel="noopener">CSDN下载</a></li><li><a href="http://vdisk.weibo.com/s/aADaW4YRjjofa" target="_blank" rel="noopener">微盘下载</a></li><li><a href="http://1000eb.com/1jmn0" target="_blank" rel="noopener">千易下载</a></li></ul>]]></content>
     
@@ -368,7 +368,7 @@
     <link href="http://hifor.net/uncategorized/gimp-%E4%B8%AD%E6%96%87%E6%89%8B%E5%86%8C/"/>
     <id>http://hifor.net/uncategorized/gimp-中文手册/</id>
     <published>2016-03-23T02:18:03.000Z</published>
-    <updated>2016-04-01T17:36:52.000Z</updated>
+    <updated>2018-06-29T01:11:40.902Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://ww2.sinaimg.cn/large/841aea59jw1f26kyh5ghgj20jt0s13ym.jpg" width="500"></p><p>格式：PDF</p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><p>暂无。</p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="http://pan.baidu.com/share/link?shareid=441114&amp;uk=2435549136" target="_blank" rel="noopener">百度云下载</a></li><li><a href="http://vdisk.weibo.com/s/aADaW4YRjjnDa" target="_blank" rel="noopener">微盘下载</a></li><li><a href="http://1000eb.com/1jmlh" target="_blank" rel="noopener">千易下载</a></li></ul>]]></content>
     
@@ -391,7 +391,7 @@
     <link href="http://hifor.net/uncategorized/%E4%BD%BF%E7%94%A8-gnuplot-%E7%A7%91%E5%AD%A6%E4%BD%9C%E5%9B%BE/"/>
     <id>http://hifor.net/uncategorized/使用-gnuplot-科学作图/</id>
     <published>2016-03-23T02:14:04.000Z</published>
-    <updated>2016-04-01T17:36:52.000Z</updated>
+    <updated>2018-06-29T01:11:41.303Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://ww4.sinaimg.cn/large/841aea59jw1f26ks49obnj20mo0tc420.jpg" width="500"></p><p>格式：PDF</p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><p>暂无。</p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="http://www.phy.fju.edu.tw/files/archive/876_ab57aed9.pdf" target="_blank" rel="noopener">原地址</a></li><li><a href="http://vdisk.weibo.com/s/aADaW4YRjjn_5" target="_blank" rel="noopener">微盘下载</a></li><li><a href="http://1000eb.com/1jmkf" target="_blank" rel="noopener">千易下载</a></li></ul>]]></content>
     
@@ -414,7 +414,7 @@
     <link href="http://hifor.net/uncategorized/scipy-lecture-notes/"/>
     <id>http://hifor.net/uncategorized/scipy-lecture-notes/</id>
     <published>2016-03-21T11:39:56.000Z</published>
-    <updated>2016-04-01T17:36:52.000Z</updated>
+    <updated>2018-06-29T01:11:41.132Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://ek8whxe.cloudimg.io/s/width/226/https://www.gitbook.com/cover/book/wizardforcel/scipy-lecture-notes.jpg?build=1439249362341&amp;v=12.0.2" alt=""></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/wizardforcel/scipy-lecture-notes/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/wizardforcel/scipy-lecture-notes" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/wizardforcel/scipy-lecture-notes" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/wizardforcel/scipy-lecture-notes" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
     
@@ -438,7 +438,7 @@
     <link href="http://hifor.net/uncategorized/a-byte-of-python/"/>
     <id>http://hifor.net/uncategorized/a-byte-of-python/</id>
     <published>2016-03-19T08:07:17.000Z</published>
-    <updated>2016-04-01T17:36:52.000Z</updated>
+    <updated>2018-06-29T01:11:40.741Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://img3.doubanio.com/lpic/s28291750.jpg" alt=""></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/wizardforcel/a-byte-of-python/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/wizardforcel/a-byte-of-python" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/wizardforcel/a-byte-of-python" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/wizardforcel/a-byte-of-python" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
     
@@ -458,7 +458,7 @@
     <link href="http://hifor.net/uncategorized/dive-into-python3/"/>
     <id>http://hifor.net/uncategorized/dive-into-python3/</id>
     <published>2016-03-19T07:02:40.000Z</published>
-    <updated>2016-04-01T17:36:52.000Z</updated>
+    <updated>2018-06-29T01:11:40.849Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://img1.doubanio.com/lpic/s4059293.jpg" alt=""></p><a id="more"></a><h2 id="在线阅读"><a href="#在线阅读" class="headerlink" title="在线阅读"></a>在线阅读</h2><ul><li><a href="https://www.gitbook.com/book/wizardforcel/dive-into-python3/details" target="_blank" rel="noopener">在线阅读</a></li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.gitbook.com/download/pdf/book/wizardforcel/dive-into-python3" target="_blank" rel="noopener">PDF格式</a></li><li><a href="https://www.gitbook.com/download/epub/book/wizardforcel/dive-into-python3" target="_blank" rel="noopener">EPUB格式</a></li><li><a href="https://www.gitbook.com/download/mobi/book/wizardforcel/dive-into-python3" target="_blank" rel="noopener">MOBI格式</a></li></ul>]]></content>
     
